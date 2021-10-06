@@ -1,0 +1,35 @@
+@import url("alert.css");
+@import url("structure.css");
+@import url("alert.css");
+* {
+  font-size: 22px;
+}
+
+.grid-container {
+  display: -ms-grid;
+  display: grid;
+}
+
+.grid-container .grid-card {
+  border: 3px solid #353535;
+}
+
+.alert {
+  background-color: #4fd46c;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  border-left: 4px solid #2da046;
+  border-radius: 8px;
+  padding: 0.5em;
+}
+
+.alert .close {
+  color: #177e2d;
+}
+
+.alert .icon {
+  color: #177e2d;
+}
+/*# sourceMappingURL=main.css.map */

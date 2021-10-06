@@ -1,0 +1,28 @@
+@import url("alert.css");
+@import url("structure.css");
+@import url("alert.css");
+*{
+    font-size: 22px;
+}
+.grid-container{
+
+    display: grid;
+
+    .grid-card{
+        border: 3px solid #353535;
+    }
+}
+.alert{
+    background-color: #4fd46c;
+    user-select: none;
+    border-left: 4px solid #2da046;
+    border-radius: 8px;
+    padding: 0.5em;
+
+    .close{
+        color: #177e2d;
+    }
+    .icon{
+        color: #177e2d;
+    }
+}

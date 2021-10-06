@@ -1,0 +1,17 @@
+<div>
+    <h3>{{link.title}}</h3>
+    <p>{{link.url}}</p>
+    <p>{{link.description}}</p>
+</div>
+<form class="formAddLink" action="/links/edit/{{link.idLink}}" method="POST">
+    <div class="container-form-control">
+        <input name="title" type="text" placeholder="New title" autofocus>
+    </div>
+    <div class="container-form-control">
+        <input name="url" type="text" placeholder="New url">
+    </div>
+    <div class="container-form-control">
+        <textarea name="description" class="form-control" rows="10" placeholder="New description"></textarea>
+    </div>
+    <input type="submit" value="Edit" class="button">
+</form>
